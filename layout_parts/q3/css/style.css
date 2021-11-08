@@ -1,5 +1,31 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q3_contents {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+}
 
+.q3_contents th, .q3_contents td {
+  border: solid #dedede 1px;
+  padding: 10px 0;
+}
+
+.q3_contents th,.q3_contents td:nth-of-type(1) {
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.q3_contents tr:last-child {
+  border-top: dashed #000 2px;
+}
+
+.q3_contents tr:nth-child(odd) {
+  background-color: #ecf1f2;
+}
 /* 回答はここに書いてね */
