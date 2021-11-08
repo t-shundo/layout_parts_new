@@ -1,5 +1,83 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
 
+.q7-1_float_box {
+  float: left;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+
+.q7-1_float_box:first-child {
+  margin-left: 0;
+}
+
+.q7-2_table {
+  display: table;
+}
+
+.q7-2_table_cell {
+  display: table-cell;
+  width: 225px;
+  padding-left: 50px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.q7-2_table_cell:first-child {
+  padding-left: 0;
+}
+
+.q7-3_inline {
+  margin-left: 50px;
+  display: inline-block;
+  width: 225px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.q7-3_inline:first-child {
+  margin-left: 0;
+}
+
+.q7-3_inline_block,.q7-5_box {
+  font-size: 0;
+}
+
+.q7-4_flex_box {
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+  align-self: flex-end;
+}
+
+.q7-4_flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.q7-5_fix {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+.q7-5_full {
+  display: inline-block;
+  margin-left: -300px;
+  padding-left: 350px;
+  width: 100%;
+  box-sizing: border-box;
+  vertical-align: top;
+  font-size: 16px;
+}
 /* 回答はここに書いてね */
